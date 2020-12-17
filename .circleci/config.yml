@@ -14,11 +14,11 @@ jobs:
       VENDOR: 'oneplus'
       CODENAME: 'fajita'
       FLAVOR: 'eng'
-      #PB_OFFICIAL: 'true'
-      TEST_BUILD: 'true'
+      PB_OFFICIAL: 'true'
+      #TEST_BUILD: 'true'
       MAINTAINER: '@SIDDK'
       CHANGELOG: |
-        - Initial Build
+        - Fixed Android 11 Decryption
     working_directory: /home/builder/pitchblack
     steps:
       - run:
